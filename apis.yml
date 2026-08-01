@@ -1,8 +1,23 @@
 aid: space-runners
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/space-runners.png
 name: Space Runners
-description: 'Space Runners is a company surfaced as a portfolio company of accel, pantera-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Space Runners is a digital fashion company that designs and launches digital wearable
+  NFTs for metaverses in collaboration with celebrities and brands. Positioned at the intersection of
+  Web3, gaming, and consumer fashion, the company produces branded digital sneakers, apparel, and
+  wearable collectibles for use across metaverse platforms. Backed by Accel and Pantera Capital, Space
+  Runners operates a consumer-facing brand and marketplace rather than a developer platform; as of this
+  enrichment pass it publishes no public API, developer portal, SDKs, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/space-runners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Digital Fashion
+- NFT
+- Metaverse
+- Web3
+- Wearables
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +46,10 @@ maintainers:
 common:
 - type: Website
   url: https://spacerunners.com/
+- type: DomainSecurity
+  url: security/space-runners-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
